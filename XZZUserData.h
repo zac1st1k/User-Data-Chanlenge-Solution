@@ -16,6 +16,6 @@
 
 @interface XZZUserData : NSObject
 
-+ (NSMutableDictionary *)users;
++ (NSArray *)users;
 
 @end

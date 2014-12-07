@@ -19,8 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSDictionary *myDictionary = [XZZUserData users];
-    NSLog(@"%@", myDictionary);
+//    NSDictionary *myDictionary = [XZZUserData users];
+//    NSLog(@"%@", myDictionary);
+    NSArray *myArray = [XZZUserData users];
+    NSLog(@"%@", myArray);
 
 }
 
