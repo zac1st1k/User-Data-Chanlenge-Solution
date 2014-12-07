@@ -10,16 +10,38 @@
 
 @implementation XZZUserData
 
-+ (NSMutableDictionary *)users;
++ (NSMutableArray *)users;
 {
-    NSMutableDictionary *myDictionary = @{@"username":@"name",
-                                          @"email":@"email",
-                                          @"password":@"password",
-                                          @"age":@"age",
-                                          @"profile":@"Picture"};
+    NSMutableArray *myArray = [[NSMutableArray alloc] init];
+    NSDictionary *myDictionary1 = @{USERNAME:@"name",
+                                    EMAIL:@"email",
+                                    PASSWORD:@"password",
+                                    AGE:@"age",
+                                    PROFILEPICTURE:@"Picture"};
+    NSDictionary *myDictionary2 = @{USERNAME:@"name",
+                                    EMAIL:@"email",
+                                    PASSWORD:@"password",
+                                    AGE:@"age",
+                                    PROFILEPICTURE:@"Picture"};
+    NSDictionary *myDictionary3 = @{USERNAME:@"name",
+                                    EMAIL:@"email",
+                                    PASSWORD:@"password",
+                                    AGE:@"age",
+                                    PROFILEPICTURE:@"Picture"};
+    NSDictionary *myDictionary4 = @{USERNAME:@"name",
+                                    EMAIL:@"email",
+                                    PASSWORD:@"password",
+                                    AGE:AGE,
+                                    PROFILEPICTURE:@"Picture"};
+    
+    
     //    [myDictionary objectForKey:@”name”];
     //    NSDictionary *myDictionary = @{ @"firetuck Color" : [UIColor redColor], @"outerspaceColor" : [UIColor clearColor]};
+    [myArray addObject:myDictionary1];
+    [myArray addObject:myDictionary2];
+    [myArray addObject:myDictionary3];
+    [myArray addObject:myDictionary4];
     
-    return myDictionary;
+    return myArray;
 }
 @end
