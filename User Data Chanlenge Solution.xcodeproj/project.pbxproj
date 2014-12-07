@@ -22,6 +22,7 @@
 		117E1C641A3445B8006E85D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117E1C431A3445B8006E85D1 /* UIKit.framework */; };
 		117E1C6C1A3445B8006E85D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 117E1C6A1A3445B8006E85D1 /* InfoPlist.strings */; };
 		117E1C6E1A3445B8006E85D1 /* User_Data_Chanlenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E1C6D1A3445B8006E85D1 /* User_Data_Chanlenge_SolutionTests.m */; };
+		117E1C791A3445D7006E85D1 /* XZZUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E1C781A3445D7006E85D1 /* XZZUserData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		117E1C691A3445B8006E85D1 /* User Data Chanlenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Chanlenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		117E1C6B1A3445B8006E85D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		117E1C6D1A3445B8006E85D1 /* User_Data_Chanlenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Chanlenge_SolutionTests.m; sourceTree = "<group>"; };
+		117E1C771A3445D7006E85D1 /* XZZUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZZUserData.h; path = ../XZZUserData.h; sourceTree = "<group>"; };
+		117E1C781A3445D7006E85D1 /* XZZUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZZUserData.m; path = ../XZZUserData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				117E1C541A3445B8006E85D1 /* Main_iPad.storyboard */,
 				117E1C571A3445B8006E85D1 /* XZZViewController.h */,
 				117E1C581A3445B8006E85D1 /* XZZViewController.m */,
+				117E1C771A3445D7006E85D1 /* XZZUserData.h */,
+				117E1C781A3445D7006E85D1 /* XZZUserData.m */,
 				117E1C5A1A3445B8006E85D1 /* Images.xcassets */,
 				117E1C461A3445B8006E85D1 /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				117E1C4C1A3445B8006E85D1 /* main.m in Sources */,
+				117E1C791A3445D7006E85D1 /* XZZUserData.m in Sources */,
 				117E1C501A3445B8006E85D1 /* XZZAppDelegate.m in Sources */,
 				117E1C591A3445B8006E85D1 /* XZZViewController.m in Sources */,
 			);
@@ -471,6 +477,7 @@
 				117E1C731A3445B8006E85D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		117E1C741A3445B8006E85D1 /* Build configuration list for PBXNativeTarget "User Data Chanlenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				117E1C761A3445B8006E85D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

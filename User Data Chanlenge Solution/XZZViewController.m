@@ -7,6 +7,7 @@
 //
 
 #import "XZZViewController.h"
+#import "XZZUserData.h"
 
 @interface XZZViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSDictionary *myDictionary = [XZZUserData users];
+    NSLog(@"%@", myDictionary);
+
 }
 
 - (void)didReceiveMemoryWarning
